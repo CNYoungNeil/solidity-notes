@@ -7,25 +7,24 @@ contract ModifierExample  {
     address public owner;
     uint public minValue = 10;
 
-
-
     constructor() {
         owner = msg.sender; //获取发送交易者的地址
     }
 
-    modifier onlyOwner {
+    modifier OnlyOwner {
         require(msg.sender == owner, "Only owner can call this function");
-        _; // 表示函数执行前和执行后的逻辑
+        _; // 表示限制要求在函数执行前
     }
 
-    modifier minValueCheck(uint _value) {
+    modifier MinValueCheck(uint _value) {
         require(_value >= minValue, "Value must be greater than or equal to minValue");
-        _; // 表示函数执行前和执行后的逻辑
+        _; // 表示限制要求在函数执行前
     }
 
-// 直接将2条限制加在这个取款方法上即可使用modifier
-    function withdraw(uint amount) public onlyOwner minValueCheck(amount) {
+// 将"onlyOwner"和"minValueCheck"这2条限制加在这个function上。相当于对function设置两条限制条件
+    function Withdraw(uint amount) public OnlyOwner MinValueCheck(amount) {
         // Only owner can withdraw and amount must be greater than or equal to minValue
         // 实际的提款逻辑
     }
+
 }
