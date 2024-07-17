@@ -18,6 +18,25 @@
 						"internalType": "uint256",
 						"name": "_simpleStorageIndex",
 						"type": "uint256"
+					}
+				],
+				"name": "SFretrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
@@ -86,11 +105,11 @@
 			]
 		},
 		"contracts/solidity_by_example/021StorageFactory.sol": {
-			"keccak256": "0x8924b8edb445d576a32fe706896359890c718c4b513127a4944de264695c9306",
+			"keccak256": "0xe4988e75f2d4f7aa097e4ea6ae442ec3b3662aa1bc962b9b4258cc12ef7ee228",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e76afde4fca987171a515bff2d8aa612459a7a2f56186b93dd0d4c24e8ece74a",
-				"dweb:/ipfs/QmXXKQR4USGPU3DW9UcoASCJuToK1mr4ExRfM4rede3W2U"
+				"bzz-raw://cefd5c36839d4b3f0d22c65c90771736043107b061bf4ad294f417b2b7982391",
+				"dweb:/ipfs/QmRo24xcWARD7eRA6d3C3ef93dqEQ84iTird4Fy7myEeNZ"
 			]
 		}
 	},

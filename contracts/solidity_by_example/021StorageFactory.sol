@@ -13,8 +13,13 @@ contract StorageFactory{
         simpleStorageArray.push(new SimpleStorage());
     }
 
-// 
+// 利用SimpleStorage里面的方法store，来存储一个favoriteNumber
     function SFstore(uint _simpleStorageIndex, uint _SFNumber) public {
         simpleStorageArray[_simpleStorageIndex].store(_SFNumber);
+    }
+
+// 利用SimpleStorage里面的方法retrieve，来获取存储的最喜欢数
+    function SFretrieve(uint _simpleStorageIndex) public view returns (uint){
+        return simpleStorageArray[_simpleStorageIndex].retrieve();
     }
 }

@@ -83,7 +83,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_favoriteNumber",
+						"name": "_favorateNum",
 						"type": "uint256"
 					}
 				],
@@ -106,7 +106,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/solidity_by_example/020SimpleStorage.sol": "SimpleStorage"
+			"contracts/solidity_by_example/022SonContract.sol": "SonContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -126,6 +126,14 @@
 			"urls": [
 				"bzz-raw://4f374bcbe0d2ea24531cae1b0c62d8619aee3dcedc45194dfa078d7bebac8772",
 				"dweb:/ipfs/QmQDVfooScb3YaKAk8fuJyPBpEF7d93N6rbxtyEeZtcerV"
+			]
+		},
+		"contracts/solidity_by_example/022SonContract.sol": {
+			"keccak256": "0x778b65fb6cdcba55cee5a92ebf7bbc8b8055b55ca971a9677ca27e953ed24729",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e0600cdcf2b1c09a4a5f66deeadde72e98fdd5ecd41d977b94c789eea6eed34c",
+				"dweb:/ipfs/QmUzjtf42aMQiouwRRB9KcHCst3TmT7s8htm47LjrdnzSn"
 			]
 		}
 	},

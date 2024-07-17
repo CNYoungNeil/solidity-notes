@@ -13,8 +13,8 @@ contract SimpleStorage{
 
     mapping(string => uint) public getAgeByName;
 
-
-    function store(uint _favoriteNumber) public {
+// 存储一个favoriteNumber
+    function store(uint _favoriteNumber) public virtual {
         favoriteNumber = _favoriteNumber;
     }
 
